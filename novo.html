@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nueva_Persona</title>
+</head>
+<script>
+function goBack() {
+    window.history.back()
+}
+</script>
+<body>
+<form method="POST">
+    <div>Agregar Persona</div>
+    <table>
+      {{formaPersona}}
+    </table>
+    <button type="submit">Guardar</button>
+    {% csrf_token %}
+</form>
+<button onclick="goBack()">Atras</button>
+</body>
+</html>
