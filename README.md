@@ -1,1 +1,1 @@
-# projecto_em_usando_django
+rojecto_usando_django
